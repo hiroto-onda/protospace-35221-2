@@ -14,7 +14,7 @@
 ### Association
 
 - has_many :comments
-- has_many :prototypes through: comments
+- has_many :prototypes
 
 ## comments テーブル
 
@@ -42,4 +42,4 @@
 ### Association
 
 - has_many  :comments
-- belongs_to:users through: comments
+- belongs_to:user
